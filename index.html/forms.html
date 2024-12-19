@@ -5,7 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+<style>
+    div{
+        text-align: center;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    h2{
+        text-align: center;
+    }
+   
+   
+    
+</style>
 <body>
+    <h2>Registration Form</h2>
+    <div>
     <form id="basic-forms" action="form.html" method="post" enctype="multipart/form-data">
     <label for="name">Name</label>
     <input id="name" name="text" type="text" placeholder="Enter name" required>
@@ -45,8 +62,11 @@
     <br><br>
     <input type="hidden" name="hidden-token" value="iki dane bounty bi dane snickers">
 </form>
+ <div id="subres">
     <input form="basic-forms" id="submit" type="submit">
     <input form="basic-forms" type="reset" name="" id="reset">
-
+</div>
+   
+</div>
 </body>
 </html>
